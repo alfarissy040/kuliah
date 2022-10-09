@@ -11,6 +11,7 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: "Aplikasi Flutter Pertamaku", home: ProdukForm());
+    return MaterialApp(
+        title: "App Android Muhammad Faza Alfarisy", home: ProdukForm());
   }
 }

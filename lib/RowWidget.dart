@@ -12,7 +12,7 @@ class RowWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Widget Row")),
-      body: Column(
+      body: Row(
         children: [
           Text("Row 1"),
           Text("Row 2"),
